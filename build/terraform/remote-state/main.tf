@@ -3,7 +3,7 @@ terraform {
 
   backend "s3" {
     bucket = "terraform-state-atlantis435"
-    key    = "atlantis-project"
+    key    = "dev-atlantis/terraform.tfstate"
     region = "eu-west-2"
   }
   
